@@ -143,7 +143,7 @@
                     <img id="org-logo-img" src="Logo_hovala_new.png" alt="לוגו" class="h-full w-full object-contain" onerror="this.src='https://placehold.co/100x100/f8fafc/94a3b8?text=LOGO'">
                 </div>
                 <div>
-                    <h1 id="org-name-label" class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">מלאי מרכז הובלה</h1>
+                    <h1 id="org-name-label" class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">מלאי תקשוב מיטב</h1>
                     <p class="brand-text text-xs font-bold mt-0.5">ניהול ציוד מתקדם בזמן אמת</p>
                 </div>
             </div>
@@ -579,10 +579,10 @@
         // ⚙️ הגדרות מערכת ולקוח
         // =====================================================================================
         const CONFIG = {
-            ORG_NAME: "מרכז הובלה",
+            ORG_NAME: "תקשוב מיטב",
             TABLE_NAME: "inventory",
-            ADMIN_PASSWORD: "L6900",
-            LOGO_PATH: "Logo_hovala_new.png",
+            ADMIN_PASSWORD: "maorhod12",
+            LOGO_PATH: "Meitav.png",
             DEFAULT_CATEGORIES: ['תשורות', 'חשמל', 'ספר', 'ערכת נהג'],
             DEVELOPER_TITLE: "", 
             DEVELOPER_NAME: "אלעד שושן",
@@ -590,8 +590,8 @@
             TENANT_ID: "mhasan"
         };
 
-        const SUPABASE_URL = "https://gumrukucfdbwibmjvqlb.supabase.co";
-        const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd1bXJ1a3VjZmRid2libWp2cWxiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMwODc3NDYsImV4cCI6MjA5ODY2Mzc0Nn0.BTyxqd_WbGTaFY0qqm5Ck23fu1pNIahTww9gXoeFbIE";
+        const SUPABASE_URL = "https://logmcasjhllqgneqfytz.supabase.co";
+        const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxvZ21jYXNqaGxscWduZXFmeXR6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ3MzA3NDAsImV4cCI6MjEwMDMwNjc0MH0.Soq9J2P-9BOuU5eoETdV71TiGw8oQYRerSMHUb7MLK0";
         const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         const ADMIN_PASSWORD_HASH = CONFIG.ADMIN_PASSWORD;
